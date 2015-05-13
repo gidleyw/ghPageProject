@@ -1,0 +1,46 @@
+/* This is the most important file of your site. Please read the notes next to the attributes to learn how the CSS controls various parts of your template.  If you want to make notes as I have done just put the comment-out tags around the text as you see here.  When I refer to "comment-out" tags here, I'm referring to the slash/asterisk combo surrounding this paragraph. This is is how you comment out text and CSS styles you don't want the browser to read. */
+
+body {
+margin: 0;
+background-image:url(images/backgrounds/MockUp2.png);  /* This adds a background image to the template.  If you only want to use a solid color, remove the comment-out tags from around the attribute below and adjust the color to whatever you like.  Then place comment-out tags around this one so the background doesn't show.  Feel free to browse the backgrounds folder located inside the images folder to test more image backgrounds.  For example, replace purpleDesign.jpg with blueCheckers.jpg and see what you get! */
+background-repeat: repeat;	
+ background-color: #fff; */    /* This background attribute has been commented out because there is already a background image.  If you want to use a solid color for the background instead, change the hex color code to #672d67 or whatever you like and remove the comment-out tags from around the attribute. Go to http://www.2createawebsite.com/build/hex-colors.html to generate your own hex colors.  */
+	
+}
+
+#container  {
+width: 1000px;  /* If you change the width of the site container, it could break the template.  Be careful and be ready to adjust other attributes.  */
+margin-right: auto;
+margin-left: auto;
+background-color: #fff; /* If you change this color, you will also need to change the color of the #leftnav and #sidebar background colors to make everything match. */
+}
+
+
+#contentWrapper  {  /* Do not adjust unless you know what you're doing.  This is what helps the content appear ahead of the nav in the source code, which can be helpful for SEO. */
+float: left;
+width: 100%;
+}
+
+#content {
+margin: 0 200px 0 170px;  /* These are the left and right margins for the content area.  The 200px represents the right margin, the 120 represents the left.  This is what helps space out the area around the main content area.  Be careful adjusting these values. */ 
+background-color: #fff;  /* Changes the color of the main content area background */
+border-left: 0px solid #E0E0E0;  /* Add a border alongside the content colums by changing the 0 to a number. */
+border-right: 0px solid #E0E0E0;  /* Add a border alongside the content colums by changing the 0 to a number. */
+padding-left: 10px;  /* Controls spacing around content area */
+padding-top: 20px;  /* Controls spacing around content area */
+padding-right: 10px;  /* Controls spacing around content area */
+font-family: "Verdana", "Arial", Helvetica, sans-serif;
+font-size: 12px;
+
+}
+
+h1 { /* This styles the H1 tag. */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #672d67;
+	line-height: 24px;
+	margin-top: 100px;
+	margin-left: 0px;
+}
+
